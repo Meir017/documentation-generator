@@ -2,9 +2,7 @@
 
 Generate code examples for your C# API using your C# code, this will ensure that your code examples in your documentation comments are valid.
 
-⚠️ This is an idea for a tool, no implementation yet ⚠️
-
-Please share your feedback here https://github.com/Meir017/documentation-generator/discussions/1
+⚠️ This is an idea for a tool, no implementation yet, Please share your feedback here https://github.com/Meir017/documentation-generator/discussions/1 ⚠️
 
 ## Example
 
