@@ -33,9 +33,9 @@ public class CalculatorDocs
 {
     public void TheMethodAdd()
     {
-        var theClass = new MyClass();
+        var myClass = new MyClass();
 #region M:MyService.MyClass.MyMethod(System.Int32,System.Int32);
-        var result = theClass.MyMethod(1, 2);
+        var result = myClass.MyMethod(1, 2);
         Assert.Equal(result, 42);
 #endregion
     }
