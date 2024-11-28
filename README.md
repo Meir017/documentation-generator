@@ -35,13 +35,16 @@ public class CalculatorDocs
     public void TheMethodAdd()
     {
         var theClass = new MyClass();
-#region public int MyService.MyClass.MyMethod(int a, int b);
+#region M:MyService.MyClass.MyMethod(System.Int32,System.Int32);
         var result = theClass.MyMethod(1, 2);
         Assert.Equal(result, 42);
 #endregion
     }
 }
 ```
+
+The idea is to wrap the example code with `#region ID` and `#endregion`.
+where the ID follows the format https://github.com/dotnet/csharpstandard/blob/standard-v6/standard/documentation-comments.md#d42-id-string-format  
 
 will modify the source code's comment:
 
