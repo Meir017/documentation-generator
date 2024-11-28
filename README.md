@@ -7,12 +7,9 @@ Generate code examples for your C# API using your C# code, this will ensure that
 The idea is to wrap the example code with `#region ID` and `#endregion`.
 where the ID follows the format https://github.com/dotnet/csharpstandard/blob/standard-v6/standard/documentation-comments.md#d42-id-string-format
 
-## Example
-
 for example - 
 
-`ICalculator.cs`:
-
+`MyClass.cs`:
 ```csharp
 namespace MyService;
 
@@ -31,7 +28,6 @@ public class MyClass
 ```
 
 `CalculatorDocs.cs`:
-
 ```csharp
 public class CalculatorDocs
 {
