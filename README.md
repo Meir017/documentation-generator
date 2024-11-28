@@ -27,9 +27,9 @@ public class MyClass
 }
 ```
 
-`CalculatorDocs.cs`:
+`MyClassDocs.cs`:
 ```csharp
-public class CalculatorDocs
+public class MyClassDocs
 {
     public void TheMethodAdd()
     {
