@@ -4,6 +4,9 @@ Generate code examples for your C# API using your C# code, this will ensure that
 
 ⚠️ This is an idea for a tool, no implementation yet, Please share your feedback here https://github.com/Meir017/documentation-generator/discussions/1 ⚠️
 
+The idea is to wrap the example code with `#region ID` and `#endregion`.
+where the ID follows the format https://github.com/dotnet/csharpstandard/blob/standard-v6/standard/documentation-comments.md#d42-id-string-format
+
 ## Example
 
 for example - 
@@ -42,9 +45,6 @@ public class CalculatorDocs
     }
 }
 ```
-
-The idea is to wrap the example code with `#region ID` and `#endregion`.
-where the ID follows the format https://github.com/dotnet/csharpstandard/blob/standard-v6/standard/documentation-comments.md#d42-id-string-format  
 
 will modify the source code's comment:
 
